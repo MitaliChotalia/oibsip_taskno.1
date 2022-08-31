@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    margin-top: 20px;
+    animation: float 6s ease-in-out infinite;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 25px;
+    height: 40px;
+    border-radius: 20px;
+}
+button{
+    font-size: 25px;
+    background-color: paleturquoise;
+    width: 77px;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightpink;
+}
+@keyframes floater{
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
+}
